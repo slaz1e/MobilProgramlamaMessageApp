@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/grupOlustur2">
+    <fragment
+        android:id="@+id/grupOlustur2"
+        android:name="com.example.chatapp.grupOlustur"
+        android:label="fragment_grup_olustur"
+        tools:layout="@layout/fragment_grup_olustur" />
+    <fragment
+        android:id="@+id/grubaEkle2"
+        android:name="com.example.chatapp.grubaEkle"
+        android:label="fragment_gruba_ekle"
+        tools:layout="@layout/fragment_gruba_ekle" />
+    <fragment
+        android:id="@+id/mesajOlustur"
+        android:name="com.example.chatapp.ui.mesajOlustur.mesajOlustur"
+        android:label="fragment_mesaj_olustur"
+        tools:layout="@layout/fragment_mesaj_olustur" />
+    <fragment
+        android:id="@+id/mesajGonder"
+        android:name="com.example.chatapp.mesajGonder"
+        android:label="fragment_mesaj_gonder"
+        tools:layout="@layout/fragment_mesaj_gonder" />
+    <fragment
+        android:id="@+id/logOut"
+        android:name="com.example.chatapp.logOut"
+        android:label="fragment_log_out"
+        tools:layout="@layout/fragment_log_out" />
+</navigation>
